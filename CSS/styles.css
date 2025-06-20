@@ -69,7 +69,8 @@ p{
   }
 }
 
-/* Links */
+/* LINKS */
+
 a{
   text-decoration: none;
 }
@@ -94,5 +95,39 @@ a{
 @media screen and (min-width:900px){
   .link-arrow{
     font-size: 1.5rem;
+  }
+}
+
+/* BADGES */
+
+.badge{
+  border-radius: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  white-space: nowrap;
+}
+
+.badge--primary{
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.badge--secondary{
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.badge--small{
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width:900px){
+  .badge{
+    font-size: 1.5rem;
+  }
+
+  .badge--small{
+    font-size: 1.2rem;
   }
 }
