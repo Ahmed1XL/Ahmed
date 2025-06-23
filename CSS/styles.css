@@ -56,7 +56,7 @@ p{
   margin-top: 0;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1024px){
   Body{
     font-size: 1.8rem;
   }
@@ -97,7 +97,7 @@ a{
   margin-left: 10px;
 }
 
-@media screen and (min-width:900px){
+@media screen and (min-width:1024px){
   .link-arrow{
     font-size: 1.5rem;
   }
@@ -127,7 +127,7 @@ a{
   font-size: 1.6rem;
 }
 
-@media screen and (min-width:900px){
+@media screen and (min-width:1024px){
   .badge{
     font-size: 1.5rem;
   }
@@ -164,7 +164,7 @@ a{
   margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1024px){
   .list--tick .list__item{
     padding-left: 0;
   }
@@ -248,8 +248,29 @@ a{
   background: #ec3000;
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1024px){
    .btn{
     font-size: 1.5rem;
    }
+}
+
+/* INPUTS */
+
+.input{
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  color: var(--color-headings);
+  font-size: 2rem;
+  outline: 0;
+  padding: 1.5rem 3.5rem;
+}
+
+::placeholder{
+  color: #cdcbd7;
+}
+
+@media screen and (min-width: 1024px){
+  .input{
+    font-size: 1.5rem;
+  }
 }
