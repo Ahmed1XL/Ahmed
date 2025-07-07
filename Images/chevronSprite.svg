@@ -1,8 +1,8 @@
 <svg width="0" height="0" class="hidden">
-  <symbol id="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51">
+  <symbol baseProfile="full" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsEv="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1591 1066" id="chevron">
     <defs></defs>
-    <circle cx="25.5" cy="25.5" r="25.5"></circle>
-    <rect x="24.4" y="27.9" width="1.6" height="15.24" rx="0.8" transform="matrix(0.78, -0.63, 0.63, 0.78, -21.26, 15.39)"></rect>
-    <rect x="33.3" y="27.9" width="1.6" height="15.24" rx="0.8" transform="translate(24 -21.9) rotate(37.3)"></rect>
+    <circle cx="795" cy="533" fill="#333333" r="533"></circle>
+    <line stroke="white" stroke-linecap="round" stroke-width="53.300000000000004" x1="476.79999999999995" x2="795" y1="399.75" y2="666.25"></line>
+    <line stroke="white" stroke-linecap="round" stroke-width="53.300000000000004" x1="1113.2" x2="795" y1="399.75" y2="666.25"></line>
   </symbol>
 </svg>
